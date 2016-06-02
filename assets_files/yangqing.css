@@ -2,3 +2,9 @@
 .logo-image { max-width:75%; height:auto; overflow:hidden;}
 
 .abstract-text { color: #606060; }
+
+#floating_sidebar {
+    position:fixed;
+    left: 0;
+    top: 0; /* change to adjust height from the top of the page */
+}
