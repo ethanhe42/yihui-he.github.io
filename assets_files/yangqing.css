@@ -9,7 +9,14 @@
     top: 0; /* change to adjust height from the top of the page */
 }
 
-
+#blackBar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:18px;
+    background-color:ghostwhite;
+}
 
 #photos {
     /* Prevent vertical gaps */
