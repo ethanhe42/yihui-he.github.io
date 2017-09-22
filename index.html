@@ -287,18 +287,16 @@ cities in the United States, and a synthetic dataset consisting of 200 cities to
                 <div class="media-body">
                     <p class="media-heading">
                         <strong>
-                            Images Classification with Estimated Depth Map
+                            Estimated Depth Map Helps Image Classification
                         </strong>
                         <a target="_blank"
-                           href="http://nbviewer.jupyter.org/github/yihui-he/Depth-estimation-with-neural-network/blob/master/latex/egpaper_final.pdf">[PDF]</a>
-                        <a target="_blank" href="https://github.com/yihui-he/Depth-estimation-with-neural-network">[Code]</a>
+                           href="https://arxiv.org/abs/1709.07077">[arXiv]</a>
+                        <a target="_blank" href="https://github.com/yihui-he/Estimated-Depth-Map-Helps-Image-Classification">[Code]</a>
                         <a target="_blank"
-                           href="http://nbviewer.jupyter.org/github/yihui-he/Depth-estimation-with-neural-network/blob/master/presentation/depth.pdf">[Slides]</a>
+                           href="http://nbviewer.jupyter.org/github/yihui-he/Estimated-Depth-Map-Helps-Image-Classification/blob/master/presentation/depth.pdf">[Slides]</a>
                     </p>
                     <p class="abstract-text">
-                        Previous related research efforts have been focused on image classification tasks using
-RGB images and depth image estimation but none have attempted to use depth image estimations in order to aid image classification over RGB images. Therefore, in this paper we present a way of 
-transferring domain knowledge on depth estimation to a seperate image classification task over a disjoint set of training,validation and test data. 
+                        We consider image classification with estimated depth. This problem falls into the domain of transfer learning, since we are using a model trained on a set of depth images to generate depth maps (additional features) for use in another classification problem using another disjoint set of images. It's challenging as no direct depth information is provided. Though depth estimation has been well studied, none have attempted to aid image classification with estimated depth. Therefore, we present a way of transferring domain knowledge on depth estimation to a separate image classification task over a disjoint set of train, and test data. We build a RGBD dataset based on RGB dataset and do image classification on it. Then evaluation the performance of neural networks on the RGBD dataset compared to the RGB dataset. From our experiments, the benefit is significant with shallow and deep networks. It improves ResNet-20 by 0.55% and ResNet-56 by 0.53%.
                     </p>
                 </div>
             </div>
