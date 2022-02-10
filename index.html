@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <script
@@ -16,77 +16,29 @@
 
   gtag('config', 'G-Y4TMBBH2RZ');
 </script>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>
-      Yihui He, CMU grad student focused on Computer vision & Deep Learning
-    </title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Le styles -->
-    <link href="./assets_files/bootstrap.min.css" rel="stylesheet" />
-    <link href="./assets_files/bootstrap-responsive.min.css" rel="stylesheet" />
-    <link href="./assets_files/yangqing.css" rel="stylesheet" />
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-    <![endif]-->
-    <link rel="icon" href="./assets_files/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Yihui He</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
-  <div class="visible-phone" id="blackBar">
-    <a href="#top">About</a>
-    <!--<a href="#research">Research</a>-->
-    <a href="#publications">Publications</a>
-    <a href="#projects">Projects</a>
-    <a href="meet.html">Coaching</a>
-    <!--<a href="#teaching">Teaching</a>-->
-    <a
-      target="_blank"
-      href="https://drive.google.com/open?id=16ZSY62e2LgWYXuYuX4GVbbJ3OnU9bwl8"
-      >CV</a
-    >
-  </div>
-
   <body>
-    <div class="container span3 hidden-phone">
-      <div id="floating_sidebar" class="span3">
-        <!-- We use a fancy nav bar if there is enough space -->
-        <!--<hr class="hidden-phone">-->
-        <br />
-        <ul class="nav nav-list bs-docs-sidenav hidden-phone">
-          <li><a href="#top">About</a></li>
-          <!--<li><a href="#research">Research</a></li>-->
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <a href="meet.html">Coaching</a>
-          <!--<li><a href="#teaching">Teaching</a></li>-->
-          <!--             <li><a target="_blank"
-                   href="https://drive.google.com/open?id=16ZSY62e2LgWYXuYuX4GVbbJ3OnU9bwl8">CV</a>
-            </li> -->
-        </ul>
-        <hr class="hidden-phone" />
-        <div class="text-center hidden-phone">
-          <img src="assets_files/me.png" alt="photo" class="logo-image" />
-          <br /><br />
-          yihuihe.yh AT gmail.com <br />
-        </div>
-
-        <!-- Otherwise, we simply use a flat list of links -->
-      </div>
-    </div>
-
-    <div class="container">
+    <!-- idea: have a javascript animated loss function converging in the header? :p -->
+    <div id="dhead" class="container">
       <div class="row">
-        <div class="span9">
-          <br />
-          <h3>Yihui He (何宜晖)</h3>
-          <h5>
-            yihuihe.yh AT gmail.com /
-            <a target="_blank" href="https://twitter.com/he_yi_hui"
-              >twitter@he_yi_hui</a
-            >
+        <div id="dpic">
+          <img src="assets/me.jpg" class="ppic" />
+        </div>
+        <div id="ddesc">
+          <h1>Yihui He</h1>
+          <h2>full stack AI research engineer🧠🤖</h2>
+          <div id="dico">
+            yihuihe.yh AT gmail.com <br />
+            <a target="_blank" href="https://twitter.com/he_yi_hui">Twitter</a>
             /
             <a
               target="_blank"
@@ -101,813 +53,716 @@
             <a target="_blank" href="https://www.zhihu.com/people/rex686568"
               >知乎 (8k 关注)</a
             >
-            <!--             / <a target="_blank"
-                 href="https://drive.google.com/open?id=16ZSY62e2LgWYXuYuX4GVbbJ3OnU9bwl8">CV</a> -->
-            <!--             / <mark>actively looking for job</mark> -->
-          </h5>
-          <!-- Do I want to show a pic on the phone screen?
-            <div class="text-center visible-phone">
-                <img src="assets/img/Yihui.png" alt="photo" width="150px"/>
-            </div>
-            -->
-          <a
-            class="visible-phone pull-left"
-            href="http://daggerfs.com/index.html#"
-          >
-            <img
-              class="media-object"
-              src="assets_files/me.png"
-              width="96px"
-              style="margin: 0px 10px"
-            />
-          </a>
-          <p>
-            I'm a research engineer at
-            <a target="_blank" href="https://www.goheadroom.com">Headroom</a>.
-            Before that, I was a research engineer at Facebook AI Research.
-          </p>
-          <p>
-            I got master's degree from CMU , with my interest focus on Computer
-            Vision and Deep Learning. At CMU, my capstone project is on
-            multi-view pose estimation, with professor
-            <a target="_blank" href="https://www.cs.cmu.edu/~katef/"
-              >Katerina Fragkiadaki</a
-            >. I interned at Facebook AI Research mentored by
-            <a
-              target="_blank"
-              href="https://research.fb.com/people/goyal-priya/"
-              >Priya Goyal</a
+            <br />
+            <a target="_blank" href="https://www.zhihu.com/people/rex686568"
+              >Google Scholar (3k citations)</a
             >
-            and
-            <a target="_blank" href="http://www.cs.cmu.edu/~abhinavg/"
-              >Abhinav Gupta</a
-            >.
-          </p>
-          <p>
-            I have a track record of contributing to CNN efficient inference
-            during my undergrad study. Particularly, I designed
-            <a href="#cp">channel pruning</a> to effectively prune channels. I
-            further proposed <a href="#AMC">AMC</a> to sample the design space
-            of channel pruning via reinforcement learning, which greatly
-            improved the performance.
-          </p>
-          <p>
-            I served as a reviewer for ECCV'20, ICML'20, CVPR'20, ICLR'20,
-            ICCV'19, CVPR'19, ICLR'19, NIPS'18, Pattern Recognition Letters, TIP
-            and IJCV.
-          </p>
-
-          <!--
-             *** Research ***
-            -->
-          <!--<h3>-->
-          <!--<a name="research"></a> Research-->
-          <!--</h3>-->
-          <!--<p>-->
-          <!--My current research topics include:-->
-          <!--</p><ul>-->
-          <!--<li> Learning better structures for image feature extraction.-->
-          <!--</li><li> Explaining human generalization behavior with visually grounded cogscience models.-->
-          <!--</li><li> Making large-scale vision feasible and affordable.-->
-          <!--</li></ul>-->
-          <!--<p></p>-->
-          <!--<p> (Most recent publications to be added) </p>-->
-
-          <!--
-             *** Publications ***
-            -->
-          <h3>
-            <a name="publications"></a> Publication
-            <a
-              target="_blank"
-              href="https://scholar.google.com/citations?user=2yAMJ1YAAAAJ&hl=en"
-              >(latest on Google Scholar)</a
-            >
-          </h3>
-          <!--
-            <div class="media">
-                <a name="pts" class="pull-left">
-                    <img class="media-object" src="./assets/pts.png" width="96px" height="96px">
-                </a>
-                <div class="media-body">
-                    <p class="media-heading">
-                        <strong>
-                             Prediction-Tracking-Segmentation
-                     </strong><br>
-                        Jianren Wang, <strong>Yihui He</strong>, Xiaobo Wang, Xinjia Yu, Xia Chen
-                        <a target="_blank"
-                           href="https://arxiv.org/abs/1904.03280">[arXiv]</a>
-                    </p>
-                    <p class="abstract-text">
-                        We motivate and present feature selective anchor-free(FSAF) module, a simple and effective building block forsingle-shot object detectors. It can be plugged into single-shot detectors with feature pyramid structure. The FSAF module addresses two limitations brought up by the conventional anchor-based detection: 1) heuristic-guided feature selection; 2) overlap-based anchor sampling. 
-                    </p>
-                </div>
-            </div>
--->
-          <div class="media">
-            <a name="fsaf" class="pull-left">
-              <img
-                class="media-object"
-                src="https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/791e7e83d86ef0f28a60ec6eb61dbc784d0300f4/7-Figure8-1.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  Feature Selective Anchor-Free Module for Single-Shot Object
-                  Detection </strong
-                ><br />
-                Chenchen Zhu, <strong>Yihui He</strong>,
-                <a target="_blank" href="http://www.cmu-biometrics.org/"
-                  >Marios Savvides</a
-                >, <strong>CVPR 2019</strong>
-                <a target="_blank" href="https://arxiv.org/abs/1903.00621"
-                  >[arXiv]</a
-                >
-              </p>
-              <p class="abstract-text">
-                We motivate and present feature selective anchor-free (FSAF)
-                module, a simple and effective building block forsingle-shot
-                object detectors. It can be plugged into single-shot detectors
-                with feature pyramid structure. The FSAF module addresses two
-                limitations brought up by the conventional anchor-based
-                detection: 1) heuristic-guided feature selection; 2)
-                overlap-based anchor sampling.
-              </p>
-            </div>
           </div>
-          <div class="media">
-            <a name="softer" class="pull-left">
-              <img
-                class="media-object"
-                src="https://raw.githubusercontent.com/yihui-he/softer-NMS/master/demo/output/softer.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  Bounding Box Regression with Uncertainty for Accurate Object
-                  Detection </strong
-                ><br />
-                <strong>Yihui He</strong>, Chenchen Zhu, Jianren Wang,
-                <a target="_blank" href="http://www.cmu-biometrics.org/"
-                  >Marios Savvides</a
-                >, Xiangyu Zhang, <strong>CVPR 2019</strong>
-                <a target="_blank" href="https://arxiv.org/abs/1809.08545"
-                  >[arXiv]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://www.youtube.com/watch?v=bcGtNdTzdkc"
-                  >[presentation]</a
-                >
-                <a target="_blank" href="https://github.com/yihui-he/KL-Loss"
-                  >[code]</a
-                >
-              </p>
-              <p class="abstract-text">
-                We introduce a novel bounding box regression loss for learning
-                bounding box transformation and localization variance together.
-                The resulting localization variance is utilized in our new
-                non-maximum suppression method to improve localization accuracy
-                for object detection. On MS-COCO, we boost the AP of VGG-16
-                faster R-CNN from 23.6% to 29.1% with a single model and nearly
-                no additional computational overhead. More importantly, our
-                method improves the AP of ResNet-50 FPN fast R-CNN from 36.8% to
-                37.8%, which achieves state-of-the-art bounding box refinement
-                result.
-              </p>
-            </div>
-          </div>
-          <div class="media">
-            <a name="address" class="pull-left">
-              <img
-                class="media-object"
-                src="https://raw.githubusercontent.com/yihui-he/yihui-he.github.io/master/assets/Screen%20Shot%202018-10-03%20at%2001.53.35.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  AddressNet: Shift-based Primitives for Efficient Convolutional
-                  Neural Networks </strong
-                ><br />
-                <strong>Yihui He*</strong>, Xianggen Liu*, Huasong Zhong* and
-                Yuchun Ma, <strong>WACV 2019</strong>
-                <a target="_blank" href="https://arxiv.org/pdf/1809.08458.pdf"
-                  >[arXiv]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://www.youtube.com/watch?v=2Abi_razAXI"
-                  >[presentation]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://raw.githubusercontent.com/yihui-he/yihui-he.github.io/master/assets/WACV19-poster.png"
-                  >[poster]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/yihui-he.github.io/blob/master/assets/AddressNet_%20Shift-based%20Primitives%20for%20Efficient%20CNN.pptx?raw=true"
-                  >[slides]</a
-                >
-              </p>
-              <p class="abstract-text">
-                We propose a collection of three shift-based primitives for
-                building efficient compact CNN-based networks. These three
-                primitives (channel shift, address shift, shortcut shift) can
-                reduce the inference time on GPU while maintains the prediction
-                accuracy. These shift-based primitives only moves the pointer
-                but avoids memory copy, thus very fast.
-              </p>
-            </div>
-          </div>
-          <div class="media">
-            <a name="AMC" class="pull-left">
-              <img
-                class="media-object"
-                src="./assets_files/mobile.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  AMC: AutoML for Model Compression and Acceleration on Mobile
-                  Devices </strong
-                ><br />
-                <strong>Yihui He*</strong>, Ji Lin*, Zhijian Liu, Hanrui Wang,
-                Li-Jia Li,
-                <a target="_blank" href="http://songhan.mit.edu">Song Han</a>,
-                <strong>ECCV 2018</strong>
-                <a
-                  target="_blank"
-                  href="http://openaccess.thecvf.com/content_ECCV_2018/html/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.html"
-                  >[PDF]</a
-                >
-                <a target="_blank" href="https://arxiv.org/abs/1802.03494"
-                  >[arXiv]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/mit-han-lab/amc-compressed-models"
-                  >[code]</a
-                >
-              </p>
-              <p class="abstract-text">
-                In this paper, we propose AMC: AutoML for Model Compression that
-                leverage reinforcement learning to efficiently sample the design
-                space and greatly improve the model compression quality.
-              </p>
-            </div>
-          </div>
-          <div class="media">
-            <a name="cp" class="pull-left">
-              <img
-                class="media-object"
-                src="./assets_files/ill-1.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  Channel pruning for accelerating very deep neural networks </strong
-                ><br />
-                <strong>Yihui He</strong>, Xiangyu Zhang,
-                <a target="_blank" href="http://jiansun.org/">Jian Sun</a>,
-                <strong>ICCV 2017</strong>
-                <a
-                  target="_blank"
-                  href="http://openaccess.thecvf.com/content_iccv_2017/html/He_Channel_Pruning_for_ICCV_2017_paper.html"
-                  >[PDF]</a
-                >
-                <a target="_blank" href="https://arxiv.org/abs/1707.06168"
-                  >[arXiv]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://raw.githubusercontent.com/yihui-he/images/master/38722_He_0600.png"
-                  >[poster]</a
-                >
-                <a
-                  target="_blank"
-                  href="http://nbviewer.jupyter.org/github/yihui-he/images/blob/master/channel-pruning-methods.pdf"
-                  >[slides]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/channel-pruning"
-                  >[code]</a
-                >
-              </p>
-              <p class="abstract-text">
-                In this paper, we introduce a new channel pruning method to
-                accelerate very deep convolutional neural networks.Given a
-                trained CNN model, we propose an iterative two-step algorithm to
-                effectively prune each layer, by a LASSO regression based
-                channel selection and least square reconstruction. We further
-                generalize this algorithm to multi-layer and multi-branch cases.
-                Our method reduces the accumulated error and enhance the
-                compatibility with various architectures. Our pruned VGG-16
-                achieves the state-of-the-art results by 5x speed-up along with
-                only 0.3% increase of error. More importantly, our method is
-                able to accelerate modern networks like ResNet, Xception and
-                suffers only 1.4%, 1.0% accuracy loss under 2x speed-up
-                respectively, which is significant.
-              </p>
-            </div>
-          </div>
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="./assets_files/vehicle.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong
-                  >Vehicle Traffic Driven Camera Placement for Better Metropolis
-                  Security Surveillance</strong
-                ><br />
-                Xiaobo Ma*, <strong>Yihui He*</strong>, Xiapu Luo, Jianfeng Li,
-                Xiaohong Guan , <strong>IEEE Intelligent System</strong>
-                <a
-                  target="_blank"
-                  href="https://ieeexplore.ieee.org/abstract/document/8354911/"
-                  >[PDF]</a
-                >
-                <a target="_blank" href="http://arxiv.org/abs/1705.08508"
-                  >[arXiv]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/Vehicle-Traffic-Driven-Camera-Placement"
-                  >[code]</a
-                >
-              </p>
-              <p class="abstract-text">
-                Security surveillance is one of the most important issues in
-                smart cities, especially in an era of terrorism. Deploying a
-                number of (video) cameras is a common approach for surveillance
-                information retrieval. Given the never-ending power offered by
-                vehicles to a metropolis, exploiting vehicle traffic to design
-                camera placement strategies could potentially facilitate
-                physicalworld security surveillance. We take the first step
-                towards exploring the linkage between vehicle traffic and camera
-                placement in favor of physical-world security surveillance from
-                a network perspective.
-              </p>
-            </div>
-          </div>
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="./assets_files/filterwise.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  Pruning Very Deep Neural Network Channels for Efficient
-                  Inference </strong
-                ><br />
-                <strong>Yihui He</strong>, Xiangyu Zhang,
-                <a target="_blank" href="http://jiansun.org/">Jian Sun</a> ,
-                <i>TPAMI, Major Revision</i>
-              </p>
-              <p class="abstract-text">
-                Channel Pruning is further expanded to Filterwise Pruning with
-                rich experiements.
-              </p>
-            </div>
-          </div>
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="./assets_files/superres.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  Single Image Super-resolution with a Parameter Economic
-                  Residual-like Convolutional Neural Network </strong
-                ><br />
-                Yudong Liang, Ze Yang, Kai Zhang, <strong>Yihui He</strong>,
-                Jinjun Wang, Nanning Zheng
-                <a target="_blank" href="https://arxiv.org/abs/1703.08173"
-                  >[arXiv]</a
-                >
-              </p>
-              <p class="abstract-text">
-                This paper aims to extend the merits of residual network, such
-                as skip connection induced fast training, for a typical
-                low-level vision problem, i.e., single image super-resolution.
-                In general, the two main challenges of existing deep CNN for
-                supper-resolution lie in the gradient exploding/vanishing
-                problem and large amount of parameters or computational cost as
-                CNN goes deeper. Correspondingly, the skip connections or
-                identity mapping shortcuts are utilized to avoid gradient
-                exploding/vanishing problem. To tackle with the second problem,
-                a parameter economic CNN architecture which has carefully
-                designed width, depth and skip connections was proposed.
-                Different residual-like architectures for image superresolution
-                has also been compared. Experimental results have demonstrated
-                that the proposed CNN model can not only achieve
-                state-of-the-art PSNR and SSIM results for single image
-                super-resolution but also produce visually pleasant results.
-              </p>
-            </div>
-          </div>
-
-          <!--<div class="media">-->
-          <!--<a class="pull-left" href="#top">-->
-          <!--<img class="media-object" src="./assets_files/decaf-features.png" width="96px" height="96px">-->
-          <!--</a>-->
-          <!--<div class="media-body">-->
-          <!--<p class="media-heading">-->
-          <!--<strong>DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition</strong><br>-->
-          <!--J Donahue, Y Jia, O Vinyals, J Hoffman, N Zhang, E Tzeng, T Darrell. arXiv preprint.<br>-->
-          <!--<a target="_blank" href="http://arxiv.org/abs/1310.1531">[ArXiv Link]</a>-->
-          <!--<a target="_blank" href="http://decaf.berkeleyvision.org/">[Live Demo]</a>-->
-          <!--<a target="_blank" href="https://github.com/UCB-ICSI-Vision-Group/decaf-release/">[Software]</a>-->
-          <!--<a target="_blank" href="http://www.eecs.berkeley.edu/~jiayq/decaf_pretrained/">[Pretrained ImageNet Model]</a>-->
-          <!--</p>-->
-          <!--<p class="abstract-text">-->
-          <!--We evaluate whether features extracted from the activation of a deep convolutional network trained in a fully supervised fashion on a large, fixed set of object recognition tasks can be re-purposed to novel generic tasks. We also released the software and pre-trained network to do large-scale image classification.-->
-          <!--</p>-->
-          <!--</div>-->
-          <!--</div>-->
-
-          <!--
-             *** Projects ***
-            -->
-          <h3><a name="projects"></a> Projects</h3>
-          Link to my
-          <a target="_blank" href="https://github.com/yihui-he"
-            >[github public projects]</a
-          >
-
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="https://raw.githubusercontent.com/yihui-he/TSP-report/master/02132.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  An Empirical Analysis of Approximation Algorithms for the
-                  Euclidean Traveling Salesman Problem
-                </strong>
-                <a target="_blank" href="https://arxiv.org/pdf/1705.09058.pdf"
-                  >[PDF]</a
-                >
-                <a target="_blank" href="https://github.com/yihui-he/TSP"
-                  >[Code]</a
-                >
-              </p>
-              <p class="abstract-text">
-                we perform an evaluation and analysis of cornerstone algorithms
-                for the metric TSP. We evaluate greedy, 2-opt, and genetic
-                algorithms. We use several datasets as input for the algorithms
-                including a small dataset, a medium-sized dataset representing
-                cities in the United States, and a synthetic dataset consisting
-                of 200 cities to test algorithm scalability.
-              </p>
-            </div>
-          </div>
-
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="https://raw.githubusercontent.com/yihui-he/Depth-estimation-with-neural-network/master/presentation/stereo.png?token=AJkBS_A-YWaMd9vcgEQuaXQWe9wmjtTBks5XWM07wA%3D%3D"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  Estimated Depth Map Helps Image Classification
-                </strong>
-                <a target="_blank" href="https://arxiv.org/pdf/1709.07077.pdf"
-                  >[PDF]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/Estimated-Depth-Map-Helps-Image-Classification"
-                  >[Code]</a
-                >
-                <a
-                  target="_blank"
-                  href="http://nbviewer.jupyter.org/github/yihui-he/Estimated-Depth-Map-Helps-Image-Classification/blob/master/presentation/depth.pdf"
-                  >[Slides]</a
-                >
-              </p>
-              <p class="abstract-text">
-                We consider image classification with estimated depth. This
-                problem falls into the domain of transfer learning, since we are
-                using a model trained on a set of depth images to generate depth
-                maps (additional features) for use in another classification
-                problem using another disjoint set of images. It's challenging
-                as no direct depth information is provided. Though depth
-                estimation has been well studied, none have attempted to aid
-                image classification with estimated depth. Therefore, we present
-                a way of transferring domain knowledge on depth estimation to a
-                separate image classification task over a disjoint set of train,
-                and test data. We build a RGBD dataset based on RGB dataset and
-                do image classification on it. Then evaluation the performance
-                of neural networks on the RGBD dataset compared to the RGB
-                dataset. From our experiments, the benefit is significant with
-                shallow and deep networks. It improves ResNet-20 by 0.55% and
-                ResNet-56 by 0.53%.
-              </p>
-            </div>
-          </div>
-
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="https://www.kaggle.io/svf/310043/4567203286d71c8fd31cf12668a3ceac/__results___files/__results___5_0.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong> Medical Image Segmentation: A survey </strong>
-                <a target="_blank" href="https://github.com/yihui-he/u-net"
-                  >[Code]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/medical-image-segmentation-a-survey/blob/master/README.md"
-                  >[Summary]</a
-                >
-              </p>
-              <p class="abstract-text">
-                I evaluate DeepMask, Deeplab and MNC for medical image
-                segmentation. I ranked
-                <strong>19%</strong> on
-                <a
-                  target="_blank"
-                  href="https://www.kaggle.com/c/ultrasound-nerve-segmentation/leaderboard/private"
-                  >Kaggle Ultrasound Nerve Segmentation</a
-                >
-              </p>
-            </div>
-          </div>
-
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="https://raw.githubusercontent.com/yihui-he/deep-learning-guide/master/presentation/resnet.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>
-                  residual neural network with tensorflow on CIFAR-100
-                </strong>
-                <a
-                  target="_blank"
-                  href="http://nbviewer.jupyter.org/github/yihui-he/ResNet-tensorflow/blob/master/report/mp2_Yihui%20He.pdf"
-                  >[PDF]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/ResNet-tensorflow"
-                  >[Code]</a
-                >
-                <a
-                  target="_blank"
-                  href="http://nbviewer.jupyter.org/github/yihui-he/deep-learning-guide/blob/master/presentation/mp12.pdf"
-                  >[Slides]</a
-                >
-              </p>
-              <p class="abstract-text">
-                I reimplement 6/13/20 layers RNN in tensorflow from scratch, and
-                test it’s result on CIFAR10/100.
-              </p>
-            </div>
-          </div>
-
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="https://raw.githubusercontent.com/yihui-he/deep-learning-guide/master/presentation/kmeans.jpg"
-                width="96px"
-                height="96px"
-              />
-            </a>
-
-            <div class="media-body">
-              <p class="media-heading">
-                <strong
-                  >Single Layer neural network with PCAwhitening Kmeans</strong
-                >
-                <a
-                  target="_blank"
-                  href="http://nbviewer.jupyter.org/github/yihui-he/An-Analysis-of-Single-Layer-Networks-in-Unsupervised-Feature-Learning/blob/master/report/mp1_Yihui%20He.pdf"
-                  >[PDF]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/An-Analysis-of-Single-Layer-Networks-in-Unsupervised-Feature-Learning"
-                  >[Code]</a
-                >
-                <a
-                  target="_blank"
-                  href="http://nbviewer.jupyter.org/github/yihui-he/deep-learning-guide/blob/master/presentation/mp12.pdf"
-                  >[Slides]</a
-                >
-              </p>
-              <p class="abstract-text">
-                We evaluate whether features extracted from the activation of a
-                deep convolutional network trained in a fully supervised fashion
-                on a large, fixed set of object recognition tasks can be
-                re-purposed to novel generic tasks. We also released the
-                software and pre-trained network to do large-scale image
-                classification.
-              </p>
-            </div>
-          </div>
-
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="https://raw.githubusercontent.com/yihui-he/my-Notes/master/person.jpg.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>Objects Detection with YOLO on Artwork Dataset</strong>
-                <a
-                  target="_blank"
-                  href="http://nbviewer.jupyter.org/github/yihui-he/Objects-Detection-with-YOLO-on-Artwork-Dataset/blob/master/Report_Yihui.pdf"
-                  >[PDF]</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/Objects-Detection-with-YOLO-on-Artwork-Dataset"
-                  >[Code]</a
-                >
-              </p>
-              <p class="abstract-text">
-                I design a small object detection network, which is simplified
-                from YOLO(You Only Look Once) network. It's trained on PASCAL
-                VOC. I evaluate it on an artwork dataset(Picasso dataset). With
-                the best parameters, I got 40% precision and 35% recall.
-              </p>
-            </div>
-          </div>
-
-          <div class="media">
-            <a class="pull-left">
-              <img
-                class="media-object"
-                src="./assets_files/shuttle.png"
-                width="96px"
-                height="96px"
-              />
-            </a>
-            <div class="media-body">
-              <p class="media-heading">
-                <strong>shuttlecock detection and tracking</strong>
-                <a
-                  target="_blank"
-                  href="https://github.com/yihui-he/Badminton-Robot"
-                  >[Code]</a
-                >
-              </p>
-              <p class="abstract-text">
-                With guassian mixture model, I extract shuttlecock proposals.
-                Then I use Partical filter to refine proposals. From multi view
-                cameras, I employed structure from motion to predict its 3D
-                location. Combined with Physics laws, landing location
-                prediction accuracy is around 5 cm. (This system works on
-                embeded linux with openCV)
-              </p>
-            </div>
-          </div>
-          <!-- Footer
-            ================================================== -->
-          <hr />
-          <footer class="footer">
-            <div class="hidden-phone">
-              <!-- <h3 class="text-center"><a name="wall"></a><strong>works</strong></h3>-->
-              <section id="photos">
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/lip-tracking-with-snake-active-contour-and-particle-filter/master/pic.png"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/Edge-detection-with-zero-crossing/master/lena_1.bmp"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/3D-reconstruction/master/result/selfff.png"
-                />
-                <img src="./assets_files/cs188.png" />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/my-Notes/master/person.jpg.png"
-                />
-                <img src="./assets_files/vehicle.png" />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/Depth-estimation-with-neural-network/master/presentation/stereo.png?token=AJkBS_A-YWaMd9vcgEQuaXQWe9wmjtTBks5XWM07wA%3D%3D"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/deep-learning-guide/master/presentation/resnet.png"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/deep-learning-guide/master/presentation/kmeans.jpg"
-                />
-                <img src="./assets_files/shuttle.png" />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/my-Notes/master/gaoxin.jpg"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/my-Notes/master/artwork.jpg"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/yihui-he/my-Notes/master/bop.jpg"
-                />
-                <img src="./assets_files/ocsi.png" />
-              </section>
-
-              <a target="_blank" href="https://github.com/yihui-he/panorama"
-                ><img
-                  src="https://github.com/yihui-he/panorama/blob/master/results/yellowstone5.jpg?raw=true"
-              /></a>
-              <hr />
-            </div>
-            <div class="row">
-              <div class="span12">
-                <p>
-                  modified from
-                  <a target="_blank" href="http://daggerfs.com/"
-                    >© Yangqing Jia 2013</a
-                  >
-                </p>
-              </div>
-            </div>
-          </footer>
+          <div id="demail"></div>
+          <!-- will reveal email -->
         </div>
       </div>
     </div>
+
+    <hr />
+
+    <div id="history" class="container">
+      <div class="entry row">
+        <div class="timespan">2021</div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="https://www.goheadroom.com/favicon.ico" />
+        </div>
+        <div class="desc">
+          <div class="htxt">
+            I'm a research engineer at Headroom, where I launched key AI
+            features:
+            <ul style="margin-top: 0px">
+              <li>
+                <a
+                  href="https://www.linkedin.com/pulse/automatic-meeting-summaries-get-access-what-matters-andrew-rabinovich/?trackingId=HQuFXpJ%2FTP2QtCdCrsf9EA%3D%3D"
+                  target="_blank"
+                >
+                  video summarization with multimodal learning</a
+                >
+              </li>
+              <li>
+                web based video super resolution and virtual background
+                customized WebGL deep learning library
+              </li>
+              <li>scalable real time emotion, gaze, pose on kubernetes</li>
+            </ul>
+          </div>
+          <div class="hassets" style="height: 304px; margin: 20px 0 10px 0">
+            <div class="hasset" style="top: 0; left: 0; width: 65%">
+              <iframe
+                width="100%"
+                height="304px"
+                src="https://www.youtube.com/embed/LAAAv-oRxEE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <div class="hasset" style="top: 0; left: 70%; width: 30%">
+              <video
+                controls=""
+                autoplay
+                preload="metadata"
+                muted=""
+                loop=""
+                playsinline=""
+                class="video"
+                width="100%"
+              >
+                <source src="assets/sr-julian.mov" />
+              </video>
+            </div>
+            <!-- <div class="hasset" style="top: 0; left: 76%">
+              <a
+                href="https://www.youtube.com/watch?v=Ucp0TTmvqOE&feature=youtu.be&t=6678"
+                ><img src="assets/auto_2.38.42.png" width="185"
+              /></a>
+            </div>
+            <div class="hasset" style="top: 44.5%; left: 50.5%; width: 25%">
+              <a
+                href="https://slideslive.com/38917690/multitask-learning-in-the-wilderness"
+                ><img src="assets/multitask.png" width="100%"
+              /></a>
+            </div> -->
+            <!-- <div class="hasset" style="top: 67.5%; left: 76%">
+              <a href="https://www.youtube.com/watch?v=oBklltKXtDE"
+                ><img src="assets/software20_narrow.png" width="185"
+              /></a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="entry row">
+        <div class="timespan">2020</div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img
+            src="data:image/jpeg;base64,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"
+          />
+        </div>
+        <div class="desc">
+          I was a research enginear at
+          <a target="_blank" href="https://ai.facebook.com/"
+            >Facebook AI Research</a
+          >, where I worked on large scale video self-supervised learning,
+          <a
+            taget="_blank"
+            href="https://github.com/facebookresearch/fairmotion"
+            >fairmotion</a
+          >,
+          <a taget="_blank" href="https://pytorchvideo.org/">PyTorchVideo</a>
+        </div>
+      </div>
+
+      <div class="entry row">
+        <div class="timespan">2018 - 2019</div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img
+            src="data:image/png;base64,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"
+          />
+        </div>
+        <div class="desc">
+          MS in computer vision at Carnegie Mellon.
+          <ul style="margin-top: 0px">
+            <li>
+              My capstone project is on
+              <a
+                target="_blank"
+                href="https://yihui-he.github.io/epipolar-transformers/"
+                >multi-view pose estimation</a
+              >, with prof.
+              <a target="_blank" href="https://www.cs.cmu.edu/~katef/"
+                >Katerina Fragkiadaki</a
+              >.
+            </li>
+            <li>
+              I authored
+              <a target="_blank" href="https://yihui-he.github.io/KL-Loss/"
+                >object detection with uncertainty</a
+              >, when I was a RA with prof.
+              <a target="_blank" href="http://www.cmu-biometrics.org/"
+                >Marios Savvides</a
+              >.
+            </li>
+            <li>
+              I interned at Facebook AI Research mentored by
+              <a
+                target="_blank"
+                href="https://research.fb.com/people/goyal-priya/"
+                >Priya Goyal</a
+              >
+              and
+              <a target="_blank" href="http://www.cs.cmu.edu/~abhinavg/"
+                >Abhinav Gupta</a
+              >.
+            </li>
+          </ul>
+
+          <div class="hassets" style="height: 250px; margin: 20px 0 10px 0">
+            <div class="hasset" style="top: 0; left: 0; width: 50%">
+              <iframe
+                width="100%"
+                height="250px"
+                src="https://www.youtube.com/embed/nfb0kfVWjcs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <div class="hasset" style="top: 0; left: 50%; width: 50%">
+              <iframe
+                width="100%"
+                height="250px"
+                src="https://www.youtube.com/embed/bcGtNdTzdkc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <!-- <div class="hasset" style="top: 0; left: 76%">
+              <a
+                href="https://www.youtube.com/watch?v=Ucp0TTmvqOE&feature=youtu.be&t=6678"
+                ><img src="assets/auto_2.38.42.png" width="185"
+              /></a>
+            </div>
+            <div class="hasset" style="top: 44.5%; left: 50.5%; width: 25%">
+              <a
+                href="https://slideslive.com/38917690/multitask-learning-in-the-wilderness"
+                ><img src="assets/multitask.png" width="100%"
+              /></a>
+            </div> -->
+            <!-- <div class="hasset" style="top: 67.5%; left: 76%">
+              <a href="https://www.youtube.com/watch?v=oBklltKXtDE"
+                ><img src="assets/software20_narrow.png" width="185"
+              /></a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="entry row">
+        <div class="timespan">2014 - 2018</div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img
+            src="data:image/png;base64,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"
+          />
+        </div>
+        <div class="desc">
+          Majored in computer science at Xi'an Jiaotong University. During my
+          undergrad study, I had a track record of contributing to CNN efficient
+          inference.
+          <ul style="margin-top: 0px">
+            <li>
+              I designed
+              <a
+                target="_blank"
+                href="https://yihui-he.github.io/channel-pruning/"
+                >channel pruning</a
+              >
+              to effectively prune channels.
+            </li>
+            <li>
+              I further proposed
+              <a href="https://arxiv.org/abs/1802.03494"
+                >AutoML for Model Compression</a
+              >
+              to sample the design space of channel pruning via reinforcement
+              learning, which greatly improved the performance.
+            </li>
+            <li>
+              I served as a reviewer for ECCV'20, ICML'20, CVPR'20, ICLR'20,
+              ICCV'19, CVPR'19, ICLR'19, NIPS'18, Pattern Recognition Letters,
+              TIP and IJCV.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div style="background-color: #eee; padding-top: 1px; margin-top: 10px">
+      <div id="featured-talks" class="container">
+        <div class="ctitle">featured talks</div>
+        <div class="row">
+          <div class="card">
+            <a href="https://www.therobotbrains.ai/who-is-andrej-karpathy">
+              <div class="ccimg"><img src="assets/robotbrains.jpg" /></div>
+            </a>
+            <div class="cdesc">Robot Brains podcast with Pieter Abbeel</div>
+          </div>
+          <div class="card">
+            <a href="https://youtu.be/j0z4FweCy4M?t=2900">
+              <div class="ccimg"><img src="assets/aiday.jpg" /></div>
+            </a>
+            <div class="cdesc">Tesla AI Day 2021</div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=g6bOwQdCJrc">
+              <div class="ccimg"><img src="assets/cvpr2021.png" /></div>
+            </a>
+            <div class="cdesc">AI for Full Self-Driving @ CVPR 2021</div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=hx7BXih7zx8">
+              <div class="ccimg"><img src="assets/scaledml2020.png" /></div>
+            </a>
+            <div class="cdesc">AI for Full Self-Driving @ ScaledML 2020</div>
+          </div>
+          <div class="card">
+            <a
+              href="https://www.youtube.com/watch?v=Ucp0TTmvqOE&feature=youtu.be&t=6678"
+            >
+              <div class="ccimg">
+                <img src="assets/auto_2.38.42_narrow.png" />
+              </div>
+            </a>
+            <div class="cdesc">Tesla Autonomy Day 2019</div>
+          </div>
+          <div class="card">
+            <a
+              href="https://slideslive.com/38917690/multitask-learning-in-the-wilderness"
+            >
+              <div class="ccimg"><img src="assets/multitask.png" /></div>
+            </a>
+            <div class="cdesc">
+              Multi-Task Learning in the Wilderness @ ICML 2019
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=oBklltKXtDE">
+              <div class="ccimg">
+                <img src="assets/pytorch_devcon_2019.jpg" />
+              </div>
+            </a>
+            <div class="cdesc">PyTorch at Tesla @ PyTorch DevCon 2019</div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=y57wwucbXR8">
+              <div class="ccimg"><img src="assets/software20.png" /></div>
+            </a>
+            <div class="cdesc">
+              Building the Software 2.0 stack @ Spark-AI 2018
+            </div>
+          </div>
+
+          <div class="card">
+            <a
+              href="http://videos.re-work.co/videos/344-interview-with-andrej-karpathy-openai"
+            >
+              <div class="ccimg"><img src="assets/rework.png" /></div>
+            </a>
+            <div class="cdesc">2017 RE•WORK Summit with Nathan Benaich</div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=xxu4IqwKw0w">
+              <div class="ccimg"><img src="assets/deeplearningai.png" /></div>
+            </a>
+            <div class="cdesc">
+              2017 "Heroes of Deep Learning" with Andrew Ng
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=tqrcjHuNdmQ">
+              <div class="ccimg"><img src="assets/drlbootcamp.png" /></div>
+            </a>
+            <div class="cdesc">
+              2017 Deep RL Bootcamp with Pieter Abbeel et al
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=u6aEYuemt0M">
+              <div class="ccimg"><img src="assets/convlecture.png" /></div>
+            </a>
+            <div class="cdesc">2016 Bay Area Deep Learning School: CNNs</div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=CYwK8bQprBY">
+              <div class="ccimg"><img src="assets/cvpr2016_talk.jpg" /></div>
+            </a>
+            <div class="cdesc">Deep Learning Workshop @ CVPR 2016</div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=qPcCk1V1JO8">
+              <div class="ccimg"><img src="assets/rework_talk.jpg" /></div>
+            </a>
+            <div class="cdesc">RE•WORK Deep Learning Summit 2016</div>
+          </div>
+
+          <div class="card">
+            <a
+              href="https://www.youtube.com/watch?v=8AnV7xAvpLQ&feature=youtu.be&t=4m15s"
+            >
+              <div class="ccimg"><img src="assets/nvidia_gtc_2015.jpg" /></div>
+            </a>
+            <div class="cdesc">NVIDIA GTC Keynote 2015 with Jensen Huang</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div
+      style="
+        background-color: #eee;
+        padding-top: 1px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+      "
+    >
+      <div class="container">
+        <div class="ctitle">featured writing</div>
+        <ul class="nodot">
+          <li>
+            Mar 2021
+            <a href="https://karpathy.github.io/2021/06/21/blockchain/"
+              >A from-scratch tour of Bitcoin in Python</a
+            >
+          </li>
+          <li>
+            Mar 2021
+            <a href="https://karpathy.github.io/2021/03/27/forward-pass/"
+              >Short Story on AI: Forward Pass</a
+            >
+          </li>
+          <li>
+            Jun 2020
+            <a href="https://karpathy.github.io/2020/06/11/biohacking-lite/"
+              >Biohacking Lite</a
+            >
+          </li>
+          <li>
+            Apr 2019
+            <a href="https://karpathy.github.io/2019/04/25/recipe/"
+              >A Recipe for Training Neural Networks</a
+            >
+          </li>
+          <li>
+            Nov 2017
+            <a href="https://karpathy.medium.com/software-2-0-a64152b37c35"
+              >Software 2.0</a
+            >
+          </li>
+          <li>
+            Sep 2016
+            <a href="https://karpathy.github.io/2016/09/07/phd/"
+              >A Survival Guide to a PhD</a
+            >
+          </li>
+          <li>
+            Nov 2015
+            <a href="https://karpathy.github.io/2015/11/14/ai/"
+              >Short Story on AI: A Cognitive Discontinuity</a
+            >
+          </li>
+          <li>
+            May 2015
+            <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"
+              >The Unreasonable Effectiveness of Recurrent Neural Networks</a
+            >
+          </li>
+          <li>
+            Sep 2014
+            <a
+              href="https://karpathy.github.io/2014/09/02/what-i-learned-from-competing-against-a-convnet-on-imagenet/"
+              >What I learned from competing against a ConvNet on ImageNet</a
+            >
+          </li>
+          <li>
+            Oct 2012
+            <a
+              href="https://karpathy.github.io/2012/10/22/state-of-computer-vision/"
+              >The state of Computer Vision and AI: we are really, really far
+              away</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+    <div id="pet-projects" class="container">
+      <div class="ctitle">Featured projects</div>
+
+      <div class="project">
+        <div class="pico">
+          <img
+            src="https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/791e7e83d86ef0f28a60ec6eb61dbc784d0300f4/7-Figure8-1.png"
+          />
+        </div>
+        <div class="pdesc">
+          We motivate and present
+          <a target="_blank" href="https://arxiv.org/abs/1903.00621"
+            >feature selective anchor-free (FSAF) module</a
+          >, a simple and effective building block forsingle-shot object
+          detectors. It can be plugged into single-shot detectors with feature
+          pyramid structure. The FSAF module addresses two limitations brought
+          up by the conventional anchor-based detection: 1) heuristic-guided
+          feature selection; 2) overlap-based anchor sampling.
+        </div>
+        <div class="pend"></div>
+      </div>
+
+      <div class="project">
+        <div class="pico">
+          <img
+            src="https://raw.githubusercontent.com/yihui-he/softer-NMS/master/demo/output/softer.png"
+          />
+        </div>
+        <div class="pdesc">
+          We introduce
+          <a target="_blank" href="https://yihui-he.github.io/KL-Loss/"
+            >a novel bounding box regression loss</a
+          >
+          for learning bounding box transformation and localization variance
+          together. The resulting localization variance is utilized in our new
+          non-maximum suppression method to improve localization accuracy for
+          object detection. On MS-COCO, we boost the AP of VGG-16 faster R-CNN
+          from 23.6% to 29.1% with a single model and nearly no additional
+          computational overhead. More importantly, our method improves the AP
+          of ResNet-50 FPN fast R-CNN from 36.8% to 37.8%, which achieves
+          state-of-the-art bounding box refinement result.
+        </div>
+        <div class="pend"></div>
+      </div>
+
+        <div class="pend"></div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
+      <div class="ctitle">publications</div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="http://proceedings.mlr.press/v70/shi17a/shi17a.pdf"
+            >World of Bits: An Open-Domain Platform for Web-Based Agents</a
+          >
+        </div>
+        <div class="pub-venue">ICML 2017</div>
+        <div class="pub-authors">
+          Tianlin (Tim) Shi, Andrej Karpathy, Linxi (Jim) Fan, Jonathan
+          Hernandez, Percy Liang
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://openreview.net/pdf?id=BJrFC6ceg"
+            >PixelCNN++: A PixelCNN Implementation with Discretized Logistic
+            Mixture Likelihood and Other Modifications</a
+          >
+        </div>
+        <div class="pub-venue">ICLR 2017</div>
+        <div class="pub-authors">
+          Tim Salimans, Andrej Karpathy, Xi Chen, Diederik P. Kingma, and
+          Yaroslav Bulatov
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://cs.stanford.edu/people/karpathy/main.pdf"
+            >Connecting Images and Natural Language (PhD thesis)</a
+          >
+        </div>
+        <div class="pub-venue">2016</div>
+        <div class="pub-authors">Andrej Karpathy</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://cs.stanford.edu/people/karpathy/densecap/"
+            >DenseCap: Fully Convolutional Localization Networks for Dense
+            Captioning</a
+          >
+        </div>
+        <div class="pub-venue">CVPR 2016 (Oral)</div>
+        <div class="pub-authors">
+          Justin Johnson*, Andrej Karpathy*, Li Fei-Fei
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="http://arxiv.org/abs/1506.02078"
+            >Visualizing and Understanding Recurrent Networks</a
+          >
+        </div>
+        <div class="pub-venue">ICLR 2016 Workshop</div>
+        <div class="pub-authors">
+          Andrej Karpathy*, Justin Johnson*, Li Fei-Fei
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="http://cs.stanford.edu/people/karpathy/deepimagesent/"
+            >Deep Visual-Semantic Alignments for Generating Image
+            Descriptions</a
+          >
+        </div>
+        <div class="pub-venue">CVPR 2015 (Oral)</div>
+        <div class="pub-authors">Andrej Karpathy, Li Fei-Fei</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="http://arxiv.org/abs/1409.0575"
+            >ImageNet Large Scale Visual Recognition Challenge</a
+          >
+        </div>
+        <div class="pub-venue">IJCV 2015</div>
+        <div class="pub-authors">
+          Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh,
+          Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael
+          Bernstein, Alexander C. Berg, Li Fei-Fei
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://cs.stanford.edu/people/karpathy/nips2014.pdf"
+            >Deep Fragment Embeddings for Bidirectional Image-Sentence
+            Mapping</a
+          >
+        </div>
+        <div class="pub-venue">NIPS 2014</div>
+        <div class="pub-authors">
+          Andrej Karpathy, Armand Joulin, Li Fei-Fei
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://cs.stanford.edu/people/karpathy/deepvideo/"
+            >Large-Scale Video Classification with Convolutional Neural
+            Networks</a
+          >
+        </div>
+        <div class="pub-venue">CVPR 2014 (Oral)</div>
+        <div class="pub-authors">
+          Andrej Karpathy, George Toderici, Sanketh Shetty, Thomas Leung, Rahul
+          Sukthankar, Li Fei-Fei
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a
+            href="http://nlp.stanford.edu/~socherr/SocherKarpathyLeManningNg_TACL2013.pdf"
+            >Grounded Compositional Semantics for Finding and Describing Images
+            with Sentences</a
+          >
+        </div>
+        <div class="pub-venue">TACL 2013</div>
+        <div class="pub-authors">
+          Richard Socher, Andrej Karpathy, Quoc V. Le, Christopher D. Manning,
+          Andrew Y. Ng
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://cs.stanford.edu/~karpathy/discovery/"
+            >Object Discovery in 3D scenes via Shape Analysis</a
+          >
+        </div>
+        <div class="pub-venue">ICRA 2013</div>
+        <div class="pub-authors">
+          Andrej Karpathy, Stephen Miller, Li Fei-Fei
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="http://cs.stanford.edu/people/karpathy/nips2012.pdf"
+            >Emergence of Object-Selective Features in Unsupervised Feature
+            Learning</a
+          >
+        </div>
+        <div class="pub-venue">NIPS 2012</div>
+        <div class="pub-authors">Adam Coates, Andrej Karpathy, Andrew Ng</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a
+            href="https://www.cs.ubc.ca/~van/papers/2012-AI-curriculum/index.html"
+            >Curriculum Learning for Motor Skills</a
+          >
+        </div>
+        <div class="pub-venue">AI 2012</div>
+        <div class="pub-authors">Andrej Karpathy, Michiel van de Panne</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a
+            href="http://www.cs.ubc.ca/~van/papers/2011-TOG-quadruped/index.html"
+            >Locomotion Skills for Simulated Quadrupeds</a
+          >
+        </div>
+        <div class="pub-venue">SIGGRAPH 2011</div>
+        <div class="pub-authors">
+          Stelian Coros, Andrej Karpathy, Benjamin Jones, Lionel Reveret,
+          Michiel van de Panne
+        </div>
+      </div>
+
+      <div>
+        <br />
+        Also on
+        <a
+          href="https://scholar.google.com/citations?user=l8WuQJgAAAAJ&hl=en&oi=ao"
+          >Google Scholar</a
+        >
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="ctitle">misc unsorted</div>
+      <ul style="padding-left: 10px">
+        <li>
+          A <a target="_blank" href="https://space.bilibili.com/2021626147"
+          >fully automated content creator</a
+        > of movie clips and movie summaries
+        </li>
+        <li>
+        I like <a target="_blank" href="https://www.youtube.com/watch?v=cUmGmobrfA4"
+        >climbing</a
+      > and <a target="_blank" href="https://www.youtube.com/watch?v=wEdeee-v3Wg"
+      >skiing</a
+    ></li>
+      </ul>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- attempt hiding from spambots :p -->
+    <!-- <script type="text/javascript">
+      var e_is_shown = false;
+      document.getElementById("iemail").addEventListener("click", function () {
+        let demail = document.getElementById("demail");
+        demail.innerHTML = "yihuihe.yh" + " _at_ " + "gmail" + ".com";
+        demail.style.opacity = e_is_shown ? 0 : 1;
+        e_is_shown = !e_is_shown;
+      });
+    </script> -->
   </body>
 </html>
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!--
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/bootstrap-affix.js"></script>
-    <script src="assets/js/holder/holder.js"></script>
-    <script src="assets/js/application.js"></script>
--->
